@@ -1,12 +1,8 @@
-const a = 4;
-console.log('a: ', a);
+const  a = 4;
 const  b = 2;
-console.log('b: ', b);
-res = a - b
-console.log(res);
-res = a + b  
-console.log( res);
-res = a / b
-console.log(res);
-res = a * b
-console.log(res);
+console.log('a: ',a);
+console.log('b: ',b); 
+console.log(a - b); 
+console.log(a + b);
+console.log(a / b);
+ console.log(a * b);
