@@ -5,4 +5,4 @@ console.log('b: ',b);
 console.log(a - b); 
 console.log(a + b);
 console.log(a / b);
-console.log(a * b);
+
