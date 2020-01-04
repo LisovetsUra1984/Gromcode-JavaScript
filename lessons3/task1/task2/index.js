@@ -18,4 +18,6 @@ console.log('0 to boolean is ' + Boolean(0));
 console.log('-0 to boolean is ' + Boolean(-0));
 console.log('NaN to boolean is ' + Boolean(NaN));
 console.log('17 to boolean is ' + Boolean(17));
+console.log(" to boolean is " + Boolean(''));
+console.log("to boolean is " + Boolean(' '));
 console.log('\'Hello\' to boolean is ' + Boolean('Hello'));
