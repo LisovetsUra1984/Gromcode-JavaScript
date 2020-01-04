@@ -12,5 +12,5 @@ console.log("undefined to number is " + Number(undefined));
 console.log("'   20   ' to number is " + Number('   20   '));
 console.log("'      ' to number is " + Number('      '));
 console.log("'   30d   ' to number is " + Number('   30d   '));
-console.log('\'null\' to boolean is ' + Boolean());
+console.log('null to boolean is ' + Boolean(null));
 console.log('\'Hello\' to boolean is ' + Boolean('Hello'));
