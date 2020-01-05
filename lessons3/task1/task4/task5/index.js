@@ -13,7 +13,7 @@ if (null) {
 } else {
     console.log('Else');
 }
-
+let age = 18;
 
 if (age < 16) {
     console.log('Too young');
