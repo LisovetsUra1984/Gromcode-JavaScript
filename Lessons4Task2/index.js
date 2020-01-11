@@ -1,11 +1,11 @@
 let m = 10;
 const n = 20;
 let result = 1;
-
-do{
-  if(m % 2 === 1){
-result *=m;
-  }
-m++;
-}while(m <= n);
-console.log('Result : ' + result);
+for(let i = m; i <=n ; i++)
+{
+    if(i%2 > 0)
+    {
+      result = result*i
+    }
+}
+console.log('Result : ' + result)
