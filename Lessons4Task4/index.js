@@ -1,8 +1,8 @@
-let n = 1;
+const n = 7;
 let sum = '';
-while (n <=7){
-sum +=n;
-n += 1;
+for(i=1; i < n; i++)
+{
+ sum = sum +i;
+}
 console.log("'"+sum+"'");
-} 
 
