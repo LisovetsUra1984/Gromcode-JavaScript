@@ -1,7 +1,7 @@
-let n = 110;
+const n = 110;
 let sum = 0;
-do {
-sum += n;
-n -= 1;
-}while (n > 0)
+for(let i=1; i <= n; i++)
+{
+ sum = sum +i;
+}
 console.log('Result: ' + sum);
