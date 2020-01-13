@@ -9,7 +9,11 @@ for(let i = m;i <=n;i++)
   }
   else if (i % 3==0)
   {
-    result=result * i;
+    result=result - i;
+  }
+  else if (i % 4==0)
+  {
+    result = result * i;
   }
 }
 console.log(result);
