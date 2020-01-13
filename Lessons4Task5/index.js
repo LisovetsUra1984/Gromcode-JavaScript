@@ -21,4 +21,3 @@ for(let i = m;i <=n;i++)
 }
 
 }
-console.log(result);
