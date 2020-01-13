@@ -1,6 +1,7 @@
 let m = 1;
 const n = 50;
 let result = 1;
+let i = 0;
 for(let i = m;i <= n;i++)
 {
 if(i % 2== 0 & i % 4 !=0)
