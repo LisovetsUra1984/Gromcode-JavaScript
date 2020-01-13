@@ -13,7 +13,11 @@ if(i % 5==0){
 else if (i % 3==0)
 {
 result=result - i;
+if(i % 5==0){
+    console.log(i);
 }
+}
+
 else if (i % 4==0)
 {
 result = result * i;
@@ -24,3 +28,4 @@ console.log(i)
 }
 
 }
+
