@@ -1,9 +1,9 @@
 function getPrimes(n){
-if(n==1) 
-return false;
-for(d = 2; d * d <=n; d++){ 
-if(n % d==0) 
-return false;
-}
-return true;
-}
+    for (var i=2; i<=n; i++){
+        for(var j=2; j<=i; j++){
+            if (i%j == 0) break;
+        }
+        if(j==i) console.log(i);
+    }
+    }
+    console.log(getPrimes(35));
