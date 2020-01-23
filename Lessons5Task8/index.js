@@ -9,14 +9,14 @@ else if(sum(a,b)<sum(c,d))
 return false;
 }
 }
-function sum(a,b)
+function sum(from,to)
 {
-res = a;
+res = from;
 do{
-a++
-res = res+a;
+from++
+res = res+from;
 }
-while(a<b);
+while(from<to);
   
 return res;
 }
