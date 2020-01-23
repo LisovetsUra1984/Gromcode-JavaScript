@@ -1,21 +1,21 @@
 function compareSums(a,b,c,d)
 {
-  if(sum(a,b)<sum(c,d))
+  if(sum(a,b)>sum(c,d))
   {
     return true;
   }
 
-  else if(sum(a,b)>sum(c,d))
+  else if(sum(a,b)<sum(c,d))
   {
     return false;
   }
 }
-function sum(a,b)
+function sum(from,to)
 {
-  res = a;
-  for(a; a<=b; a++ )
+  res = from;
+  for(from; from<=to; from++ )
   {
-    res = res+a;
+    res = res+from;
   }
   return res;
 }
