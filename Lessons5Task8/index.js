@@ -4,19 +4,19 @@ function compareSums(a,b,c,d)
   {
     return true;
   }
-
   else if(sum(a,b)<sum(c,d))
   {
     return false;
   }
 }
-function sum(from,to)
+function sum(a,b)
 {
-  res = from;
-  for(from; from<=to; from++ )
-  {
-    res = res+from;
-  }
+  res = a;
+    do{
+        a++
+    res = res+a;
+    }
+    while(a<b)
+  
   return res;
 }
-   
