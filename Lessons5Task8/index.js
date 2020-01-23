@@ -1,5 +1,5 @@
 function sum(from,to){
-    res = 0;
+    res = from;
     for(from;from<=to;from++){
     res = res+from;
     }
