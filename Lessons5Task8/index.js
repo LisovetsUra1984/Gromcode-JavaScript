@@ -4,7 +4,8 @@ function compareSums(a,b,c,d)
   {
     return true;
   }
-  else
+
+  else if(sum(a,b)<sum(c,d))
   {
     return false;
   }
