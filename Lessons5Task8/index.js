@@ -13,4 +13,4 @@ function sum(from,to){
             return false;
         }
     }
-    console.log(compareSums(1,2,3,4));
+   
