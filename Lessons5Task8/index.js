@@ -1,11 +1,11 @@
 function compareSums(a,b,c,d)
 {
-  if(sum(a,b)>sum(c,d))
+  if(sum(a,b)<sum(c,d))
   {
     return true;
   }
 
-  else if(sum(a,b)<sum(c,d))
+  else if(sum(a,b)>sum(c,d))
   {
     return false;
   }
