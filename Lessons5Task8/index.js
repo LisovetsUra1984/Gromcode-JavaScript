@@ -1,19 +1,23 @@
 function compareSums(a,b,c,d)
 {
-  if(sum(a,b)>=sum(c,d))
+  if(sum(a,b)>sum(c,d))
   {
     return true;
   }
+  else if(sum(a,b)==sum(c,d))
+  {
+    return console.log("This condition wasn't described in task");
+  }
     return false;
 }
-function sum(from,to)
+function sum(a,b)
 {
-  res = from;
+  res = a;
     do{
-        from++
-    res = res+from;
+        a++
+    res = res+a;
     }
-    while(from<to)
- 
+    while(a<b)
+  
   return res;
 }
