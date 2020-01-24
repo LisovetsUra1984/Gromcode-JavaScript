@@ -4,9 +4,9 @@ function compareSums(a,b,c,d)
   {
     return true;
   }
-  else if(sum(a,b)==sum(c,d))
+  else if (sum(a,b)==sum(c,d))
   {
-    return console.log("This condition wasn't described in task");
+    return "equal";
   }
     return false;
 }
