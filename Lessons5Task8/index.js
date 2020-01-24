@@ -1,10 +1,7 @@
 function compareSums(a,b,c,d)
 {
-  if(sum(a,b)>sum(c,d))
-  {
-    return true;
-  }
-    return false;
+
+    return sum(a,b)>sum(c,d);
 }
 function sum(from, to)
 {
