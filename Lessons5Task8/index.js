@@ -4,10 +4,6 @@ function compareSums(a,b,c,d)
   {
     return true;
   }
-  else if (sum(a,b)==sum(c,d))
-  {
-    return "equal";
-  }
     return false;
 }
 function sum(a,b)
